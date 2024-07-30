@@ -25,7 +25,7 @@ import java.util.Objects;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan("ru.example.mvc")
+@ComponentScan("ru.spring.hibernate")
 @PropertySource("classpath:hibernate.properties")
 @EnableTransactionManagement
 @EnableWebMvc
